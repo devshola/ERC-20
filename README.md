@@ -1,15 +1,15 @@
 
-# MyERC20
+# SimpleERC20
 
-This Solidity program is a simple ERC-20 smart contract that allows the owner to mint tokens for users, while users can transfer tokens between themselves and also burn their owned tokens.
+The SimpleERC20 is Solidity program is a simple ERC-20 smart contract that allows the owner to mint tokens for users, while users can transfer tokens between themselves and also burn their owned tokens.
 
 ## Description
 
 This program is a simple contract written in Solidity, a programming language for developing smart contracts on the Ethereum blockchain. The smart contract inherited the Openzeppelin ERC-20 and Ownable smart contract
 
 ``` javascript
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
+    import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+    import "@openzeppelin/contracts/access/Ownable.sol";
 ```
 
 and from the ERC-20 contract I implemented the ```mint, transfer, balanceOf, burnToken``` functions.
@@ -70,7 +70,7 @@ Once the contract is deployed, you can interact with it the contract.
 
 # Authors
 
-Temitope Taiwo
+Samuel Shola
 
 # License
 
