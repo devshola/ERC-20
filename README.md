@@ -25,7 +25,7 @@ and from the ERC-20 contract I implemented the ```mint, transfer, balanceOf, bur
 
 You can use Remix, an online Solidity IDE to run this program. To get started, go to the Remix website at https://remix.ethereum.org/.
 
-Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., MyERC20.sol). Copy and paste the following code into the file:
+Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., SimpleERC20.sol). Copy and paste the following code into the file:
 
 ```javascript
 // SPDX-License-Identifier: MIT
